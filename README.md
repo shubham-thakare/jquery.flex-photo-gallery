@@ -1,6 +1,6 @@
 # JQuery Flex Photo Gallery
 
-<b><h3>How to use it:</h3></b><br>
+<b><h3>How to use it:</h3></b>
 <b>1. Import the jQuery Flex Photo Gallery plugin and other required resources into your html document.<br/></b>
 	&lt;script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <br/>
