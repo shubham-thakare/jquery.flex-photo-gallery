@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Flex Photo Gallery Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.flex-photo-gallery.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery.flex-photo-gallery.css"/>
+    </head>
+    <body>        
+        <div id="gallery"></div>
+    </body>
+</html>
+
+<script>
+    $(document).ready(function() {
+        $('#gallery').flexPhotoGallery({
+            imageArray: imageArray,
+            isViewImageOnClick: true
+        });
+    });
+
+    
+    var imageArray = 
+    [
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/House-sparrow.jpg",
+            "width": 1600,
+            "height": 1067 
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/Northern-Flicker.JPG",
+            "width": 323,
+            "height": 449
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/american-robin.jpg",
+            "width": 1200,
+            "height": 635
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/animal-avian-beak.jpg",
+            "width": 4167,
+            "height": 2976
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/bird.jpg",
+            "width": 183,
+            "height": 275
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/burly.jpg",
+            "width": 620,
+            "height": 370
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/bird.jpg",
+            "width": 183,
+            "height": 275
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/kingfisher.jpg",
+            "width": 960,
+            "height": 639
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/House-sparrow.jpg",
+            "width": 1600,
+            "height": 1067 
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/scarlet-tanager.jpg",
+            "width": 640,
+            "height": 426
+        },
+        {
+            "url": "https://raw.githubusercontent.com/shubham-thakare/sample-images/master/cuckoo.jpg",
+            "width": 1900,
+            "height": 1496
+        }
+    ];
+</script>
