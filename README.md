@@ -7,6 +7,7 @@ How to use it:
     <link rel="stylesheet" type="text/css" href="css/jquery.flex-photo-gallery.css"/>
     
 2. Define the array objects containing images to be presented in the gallery.
+<br/>
     var images = [
       {
         "url" : "path_to_image",
