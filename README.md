@@ -30,4 +30,4 @@ How to use it:
         isViewImageOnClick: true
     });
     
-    Set isViewImageOnClick = false if you don't wan't to enlarge the image on click event. Default value is true.
+    Set isViewImageOnClick = false if you don't wan't to enlarge the image on click event. Default value is true. 
