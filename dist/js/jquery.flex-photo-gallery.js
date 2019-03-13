@@ -10,21 +10,7 @@
         return this.each( function() {
             $(this).css({ 'overflow' : 'auto' });
             $(this).html(getRenderedImageDOM(settings.imageArray));
-            $('body').append('<div id="modal-container">' +
-                                '<div class="modal-background">' +
-                                    '<div class="modal-close-button">' +
-                                        '<span>+</span>' +
-                                    '</div>' +
-                                    '<div class="modal-prev-button"><span>&#8249;</span></div>' +
-                                    '<div class="modal-next-button"><span>&#8250;</span></div>' +
-                                    '<div class="modal">' +
-                                        '<div class="modal-img-wrapper"><img class="modal-img"/></div>' +
-                                        '<svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">' +
-                                            '<rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>' +
-                                        '</svg>' +
-                                    '</div>' +
-                                '</div>' +
-                            '</div>');
+            $('body').append(getRenderedModalBody());
 
             if(settings.isViewImageOnClick){
                 $('.gallery-item').addClass('hover-pointer');
@@ -87,6 +73,24 @@
 
         function getSectionTemplate(item){
             return "<section id='images-section'>" + item + "</section>";
+        }
+
+        function getRenderedModalBody(){
+            return '<div id="modal-container">' +
+                        '<div class="modal-background">' +
+                            '<div class="modal-close-button">' +
+                                '<span>+</span>' +
+                            '</div>' +
+                            '<div class="modal-prev-button"><span>&#8249;</span></div>' +
+                            '<div class="modal-next-button"><span>&#8250;</span></div>' +
+                            '<div class="modal">' +
+                                '<div class="modal-img-wrapper"><img class="modal-img"/></div>' +
+                                '<svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">' +
+                                    '<rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>' +
+                                '</svg>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>'
         }
     }
 }(jQuery));
