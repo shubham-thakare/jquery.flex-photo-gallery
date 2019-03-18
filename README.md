@@ -4,7 +4,7 @@ Flex Photo Gallery is a jQuery plugin which makes use of CSS3 Flexbox to create 
 ![!png](https://raw.githubusercontent.com/shubham-thakare/jquery.flex-photo-gallery/master/example/screenshots/Flex%20Gallery%20Desktop.PNG)
 
 ## How to use it:
-```xml
+```javascript
 1. Download the jquery.flex-photo-gallery plugin files.
 
 2. Import the jQuery Flex Photo Gallery plugin and other required resources into your html document.
@@ -12,7 +12,6 @@ Flex Photo Gallery is a jQuery plugin which makes use of CSS3 Flexbox to create 
 <script type="text/javascript" src="js/jquery.flex-photo-gallery.js"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery.flex-photo-gallery.css"/>
 
-    
 3. Define the array objects containing images to be presented in the gallery.
 	var images =
 	[
@@ -28,7 +27,6 @@ Flex Photo Gallery is a jQuery plugin which makes use of CSS3 Flexbox to create 
 		},
 		........
 	];
-
     
 4. Create a container in which you want to display the image gallery.
 	<div id="gallery"></div>
