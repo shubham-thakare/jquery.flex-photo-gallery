@@ -57,4 +57,3 @@ Flex Photo Gallery is a jQuery plugin which makes use of CSS3 Flexbox to create 
 ```xml
 Set isViewImageOnClick = false if you don't wan't to enlarge the image on click event. Default value is true.
 ```
-```
