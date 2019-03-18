@@ -61,7 +61,7 @@
             var renderdColumnGrid = '';
             imageArray.forEach( function(item){
                 renderedHTML = '';
-                renderedHTML = renderedHTML.concat('', "<div class='img-wrapper img-wrapper-ind-" + i + "' style='width: " + item.width*200/item.height + "; flex-grow: " + item.width*200/item.height + "'>" + 
+                renderedHTML = renderedHTML.concat('', "<div class='img-wrapper img-wrapper-ind-" + i + "' style='width: " + item.width*200/item.height + "px; flex-grow: " + item.width*200/item.height + "'>" + 
                                                             "<img class='gallery-item' src='" + item.url + "' alt=' '/>" + 
                                                             "<i class='gallery-item-i' style='padding-bottom: " + item.height/item.width*100 + "%'></i>" +
                                                         "</div>");
