@@ -22,11 +22,6 @@ img.gallery-item {
     vertical-align: bottom;
 }
 
-/* Photo Viewer Modal */
-/* html.modal-active, body.modal-active {
-    overflow: hidden;
-} */
-
 #modal-container {
     position: fixed;
     display: table;
