@@ -13,8 +13,7 @@ Flex Photo Gallery is a jQuery plugin which makes use of CSS3 Flexbox to create 
 <link rel="stylesheet" type="text/css" href="css/jquery.flex-photo-gallery.css"/>
 
 3. Define the array objects containing images to be presented in the gallery.
-var images =
-[
+var images = [
 	{
 		"url" : "path_to_image",
 		"width" : image_width,
