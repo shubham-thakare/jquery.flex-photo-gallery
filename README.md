@@ -1,5 +1,7 @@
 # jQuery Flex Photo Gallery
 
+[![HitCount](http://hits.dwyl.com/shubham-thakare/jqueryflex-photo-gallery.svg)](http://hits.dwyl.com/shubham-thakare/jqueryflex-photo-gallery)
+
 For live demo visit to https://shubham-thakare.github.io/jquery.flex-photo-gallery/
 
 Flex Photo Gallery is a jQuery plugin which makes use of CSS3 Flexbox to create a responsive, justified grid layout and gallery for showing your images. It also provides the popup modal for viewing the selected image with the navigation buttons.
